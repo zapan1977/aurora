@@ -1,0 +1,5 @@
+30G /mysql ext4
+200G /tmp type xfs (rw,noatime,nodiratime,nobarrier)
+200G /log type xfs (rw,noatime,nodiratime,nobarrier)
+/data type ext4 (rw,noatime,nodiratime,data=writeback,discard)
+/tokuData type xfs (rw,noatime,nodiratime,nobarrier)
